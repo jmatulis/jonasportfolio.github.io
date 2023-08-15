@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #50b3a2;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+        }
+        section.content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            border-radius: 50%;
+        }
+
+        .profile-photo {
+            border-radius: 50%;  /* Makes the image round */
+            margin-right: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            flex-shrink: 0; /* Prevents the image from shrinking */
+        }
+        
+        .about-section {
+            display: flex;  /* Uses Flexbox for layout */
+            align-items: center;  /* Vertically aligns items to the center */
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+            line-height: 200%;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <a href="index.html">Home</a>  <!-- Link back to the main portfolio page -->
+        </nav>
+    </header>
+    <section class="content">
+        <div class="about-section">
+            <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRNrNFB4ixyBoILm1z6GLWpJHVkBOLK1H-Wy_JMSvvU1c5YlCNusQ2Atq-Y4d-evvGMZyqbZHoA7W69cBY" alt="Profile Photo" class="profile-photo" width="350" height="350">
+            <div>
+                <p>
+                    Hi there! I'm [Your Name], a young Python enthusiast. I started learning Python at [School/Institution] and have been in love with coding ever since. When I'm not coding, I enjoy [some personal interests, e.g., "reading, hiking, and playing the guitar"].
+                </p>
+                <p>
+                    This summer, I attended an intermediate Python summer camp, and I've built several projects that you can see on my portfolio page. Each project taught me something new and exciting about programming!
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
